@@ -1,0 +1,161 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel=stylesheet href="codemirror-5.59.4/doc/docs.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/lib/codemirror.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/addon/hint/show-hint.css">
+
+    <script src="codemirror-5.59.4/lib/codemirror.js"></script>
+    <script src="codemirror-5.59.4/addon/edit/matchbrackets.js"></script>
+    <script src="codemirror-5.59.4/addon/hint/show-hint.js"></script>
+    <script src="codemirror-5.59.4/mode/clike/clike.js"></script>
+    
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/3024-day.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/3024-night.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/abcdef.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/ambiance.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/ayu-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/ayu-mirage.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/base16-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/bespin.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/base16-light.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/blackboard.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/cobalt.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/colorforth.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/dracula.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/duotone-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/duotone-light.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/eclipse.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/elegant.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/erlang-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/gruvbox-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/hopscotch.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/icecoder.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/isotope.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/lesser-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/liquibyte.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/lucario.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/material.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/material-darker.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/material-palenight.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/material-ocean.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/mbo.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/mdn-like.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/midnight.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/monokai.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/moxer.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/neat.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/neo.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/night.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/nord.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/oceanic-next.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/panda-syntax.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/paraiso-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/paraiso-light.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/pastel-on-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/railscasts.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/rubyblue.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/seti.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/shadowfox.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/solarized.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/the-matrix.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/tomorrow-night-bright.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/tomorrow-night-eighties.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/ttcn.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/twilight.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/vibrant-ink.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/xq-dark.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/xq-light.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/yeti.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/idea.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/darcula.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/yonce.css">
+    <link rel="stylesheet" href="codemirror-5.59.4/theme/zenburn.css">
+    <head>
+        <title>在线编译器</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
+    </head>
+    <body>
+        <div class="language_select">
+            <h2>编写你的代码！</h2>
+            <select>
+                <option value="c99">C</option>
+                <option value="cpp">CPP</option>
+                <option value="java">Java</option>
+            </select>
+        </div>
+        <div class="text_editor">
+            <div class="code_area">
+                <textarea id="c-code">#include <stdio.h>
+int main() {
+    // Write your code here
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d\n",a+b);
+    return 0;
+}</textarea>
+            </div>
+        </div>
+        <div class="theme_stdin">
+            <div class="theme_choice">
+                <p>选择一个编辑器主题: <select onchange="selectTheme()" id=select>
+                    <option selected>default</option><option>3024-day</option>
+                    <option>3024-night</option><option>abcdef</option>
+                    <option>ambiance</option><option>ayu-dark</option>
+                    <option>ayu-mirage</option><option>base16-dark</option>
+                    <option>base16-light</option><option>bespin</option>
+                    <option>blackboard</option><option>cobalt</option>
+                    <option>colorforth</option><option>darcula</option>
+                    <option>dracula</option><option>duotone-dark</option>
+                    <option>duotone-light</option><option>eclipse</option>
+                    <option>elegant</option><option>erlang-dark</option>
+                    <option>gruvbox-dark</option> <option>hopscotch</option>
+                    <option>icecoder</option><option>idea</option>
+                    <option>isotope</option><option>lesser-dark</option>
+                    <option>liquibyte</option><option>lucario</option>
+                    <option>material</option><option>material-darker</option>
+                    <option>material-palenight</option><option>material-ocean</option>
+                    <option>mbo</option><option>mdn-like</option>
+                    <option>midnight</option><option>monokai</option>
+                    <option>moxer</option><option>neat</option>
+                    <option>neo</option><option>night</option>
+                    <option>nord</option><option>oceanic-next</option>
+                    <option>panda-syntax</option><option>paraiso-dark</option>
+                    <option>paraiso-light</option><option>pastel-on-dark</option>
+                    <option>railscasts</option> <option>rubyblue</option>
+                    <option>seti</option><option>shadowfox</option>
+                    <option>solarized dark</option><option>solarized light</option>
+                    <option>the-matrix</option><option>tomorrow-night-bright</option>
+                    <option>tomorrow-night-eighties</option><option>ttcn</option>
+                    <option>twilight</option><option>vibrant-ink</option>
+                    <option>xq-dark</option><option>xq-light</option>
+                    <option>yeti</option><option>yonce</option>
+                    <option>zenburn</option>
+                </select>
+                </p>
+            </div>
+            <div class="stdin">
+                <p>
+                    标准输入：<textarea id="stdinput">1 2</textarea>
+                </p>
+            </div>
+        </div>
+        <div class="stdout">
+            <p>
+                标准输出：<textarea id="stdoutput"></textarea>
+            </p>
+        </div>
+        
+        <div class="compiler">
+            <button> 运行 </button>
+        </div>
+        
+        <div class="footer">
+            <span>&copy; 2021 <a href="https://www.hiyiguo.cn/">依果的小站</a></span>
+            <span><a href="http://beian.miit.gov.cn/" target="_blank">湘ICP备19003135号-1</a></span>
+        <span><img src="https://zyg0121.oss-cn-shenzhen.aliyuncs.com/beian.png
+        " /><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43052302000114" target="_blank">湘公网安备 43052302000114号</a>
+        </div>
+        
+        <script src="./sandbox.js"></script>
+    </body>
+</html>
