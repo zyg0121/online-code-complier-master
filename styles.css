@@ -67,15 +67,3 @@ body {
 .footer a{
     color: rgba(150, 148, 148, 0.8);
 }
-
-
-button {
-    margin: 20px;
-    outline: none;
-    border: none;
-    background: #FFC107;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: medium;
-    cursor: pointer;
-}
